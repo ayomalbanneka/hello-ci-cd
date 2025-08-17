@@ -3,4 +3,4 @@ function sayHello(name){
 }
 
 console.log(sayHello("World"));
-export default sayHello;
+module.exports  = sayHello;        
