@@ -1,5 +1,5 @@
-import sayHello from './index';
+const sayHello = require("./index");
 
-test("say hello to given name",()=>{
-    expect(sayHello("World")).toBe("Hello, Student!");
-})
+test("says hello to given name", () => {
+  expect(sayHello("Student")).toBe("Hello, Student!");
+});
